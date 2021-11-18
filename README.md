@@ -8,5 +8,4 @@
 * Ignoring non-essential python scripts when compiling.  
 
 **[Source Code](https://github.com/MatroSkaMods/MMC)** | **[Releases](https://github.com/MatroSkaMods/MMC/releases)**
-
 ---
