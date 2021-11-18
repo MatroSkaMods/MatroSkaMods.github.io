@@ -1,6 +1,6 @@
 <img align="left" src="/assets/mmc_icon_small.png">
 
-### Matroska Mod Compiler  
+## Matroska Mod Compiler  
 Features:
 * Creating and compiling ts4script mods.
 * Hello_world script when creating new mods.
