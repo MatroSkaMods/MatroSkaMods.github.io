@@ -1,5 +1,5 @@
 
-### Index
+## Index
 1. Matroska Mod Compiler  
    Features:
    * Creating and compiling ts4script mods.
