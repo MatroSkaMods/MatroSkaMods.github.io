@@ -2,10 +2,10 @@
 
 ## Matroska Mod Compiler  
 ### Features:
-* Creating and compiling ts4script mods.
-* Hello_world script when creating new mods.
-* Patching python modules to make them compatible with Sims 4.
-* Ignoring non-essential python scripts when compiling.  
+> * Creating and compiling ts4script mods.
+> * Hello_world script when creating new mods.
+> * Patching python modules to make them compatible with Sims 4.
+> * Ignoring non-essential python scripts when compiling.  
 
 ### [Download Binary](https://github.com/MatroSkaMods/MMC/releases) | [Source Code](https://github.com/MatroSkaMods/MMC) 
 ---
