@@ -6,7 +6,6 @@
 * Hello_world script when creating new mods.
 * Patching python modules to make them compatible with Sims 4.
 * Ignoring non-essential python scripts when compiling.  
-
-**[Download Binary](https://github.com/MatroSkaMods/MMC/releases) | [Source Code](https://github.com/MatroSkaMods/MMC)**
+[Download Binary](https://github.com/MatroSkaMods/MMC/releases) | [Source Code](https://github.com/MatroSkaMods/MMC)
 
 ---
