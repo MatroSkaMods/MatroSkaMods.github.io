@@ -1,5 +1,3 @@
-
-## Index
 <img align="left" src="/assets/mmc_icon_small.png">
 
 ### Matroska Mod Compiler  
