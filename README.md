@@ -16,12 +16,4 @@
 ## Consider Buying me a coffee!
 ### Fuel my programming addiction by keeping me awake longer.
 
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('matroskamods', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Donate',
-    'floating-chat.donateButton.background-color': '#5bc0de',
-    'floating-chat.donateButton.text-color': '#323842'
-  });
-</script>
+<iframe id='kofiframe' src='https://ko-fi.com/matroskamods/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='matroskamods'></iframe>
