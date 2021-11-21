@@ -12,3 +12,16 @@
 ![screenshot](/assets/image.png)
 
 ---
+
+## Consider Buying me a coffee!
+### Fuel my programming addiction by keeping me awake longer.
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('matroskamods', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Donate',
+    'floating-chat.donateButton.background-color': '#5bc0de',
+    'floating-chat.donateButton.text-color': '#323842'
+  });
+</script>
