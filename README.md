@@ -1,4 +1,12 @@
+<img align="left" src="/assets/webneyicon.png" width=150>
 
+## Webney 
+Control The Sims 4 from your Android or iOS phone.  
+WORK IN PROGRESS.  
+
+<br>
+
+--- 
 
 <img align="left" src="/assets/mmc_icon_small.png" width=150>
 
@@ -6,14 +14,6 @@
 A simple tool to help developers create ts4script files.  
 
 [<button class="button">Download</button>](./mmc)
-  
----
-
-<img align="left" src="/assets/webneyicon.png" width=150>
-
-## Webney 
-Control The Sims 4 from your Android or iOS phone.  
-WORK IN PROGRESS.  
 
 <br>
   
