@@ -2,5 +2,8 @@ theme: jekyll-theme-architect
 title: MatroSka Mods
 description: Mods and Utilities for The Sims 4
 permalink: /
-sidebars:
-- community_sidebar
+
+- title: 'Installation'
+  url: Installation.html
+  output: 'web, pdf'
+  children:
