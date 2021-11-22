@@ -14,8 +14,6 @@ WORK IN PROGRESS.
 A simple tool to help developers create ts4script files.  
 
 [<button class="button">Download</button>](./mmc)
-
-<br>
   
 ---
 
