@@ -1,9 +1,6 @@
 
 
-<a href='./mmc.md'>
-  <h2>Matroska Mod Compiler</h2>
-  <img src="/assets/mmc_icon_small.png">
-</a>
+[<h2>Matroska Mod Compiler</h2><img src="/assets/mmc_icon_small.png">](./mmc.md)
 
 ---
 
