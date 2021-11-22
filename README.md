@@ -2,10 +2,12 @@
 <img align="left" src="/assets/mmc_icon_small.png">
 
 ## Matroska Mod Compiler  
-A simple tool to help developers create ts4script files.   
-<button>Download</button>
+A simple tool to help developers create ts4script files.  
+
+[<button class="button">Download</button>](./mmc.mc)
+
   
-<br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 ---
 
