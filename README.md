@@ -1,4 +1,4 @@
-### [Join my Discord](https://discord.gg/Ms3EDnhshj)
+## [Join my Discord](https://discord.gg/Ms3EDnhshj)
 
 ---  
 
