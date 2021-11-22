@@ -9,9 +9,12 @@ A simple tool to help developers create ts4script files.
   
 ---
 
-## Coming Soon...
-<img src="/assets/webneylogo.png" width=520>
+<img align="left" src="/assets/webneylogo.png" width=150>
 
+## Webney 
+Control The Sims 4 from your Android or iOS phone.  
+WORK IN PROGRESS.
+  
 ---
 
 ## Consider Buying me a coffee!
