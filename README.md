@@ -9,8 +9,6 @@
 
 [Download Binary](https://github.com/MatroSkaMods/MMC/releases) | [Source Code](https://github.com/MatroSkaMods/MMC)
 
-![screenshot](/assets/image.png)
-
 ---
 
 # Coming Soon...
