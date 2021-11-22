@@ -4,7 +4,7 @@
 ## Matroska Mod Compiler  
 A simple tool to help developers create ts4script files.  
 
-[<button class="button">Download</button>](./mmc.mc)
+[<button class="button">Download</button>](./mmc)
 
   
 <br><br><br><br><br><br><br><br>
