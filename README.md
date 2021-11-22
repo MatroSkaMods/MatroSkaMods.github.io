@@ -1,6 +1,11 @@
 
+<img align="left" src="/assets/mmc_icon_small.png">
 
-[<h2>Matroska Mod Compiler</h2><img src="/assets/mmc_icon_small.png">](./mmc.md)
+## Matroska Mod Compiler  
+A simple tool to help developers create ts4script files.   
+<button>Download</button>
+  
+<br><br><br><br>
 
 ---
 
