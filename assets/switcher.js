@@ -1,11 +1,21 @@
 
 function hide_all(unhide) {
-    $(".screen_home").hide();
-    $(".screen_api").hide();
-    $(".screen_mods").hide();
-    $(".screen_utilities").hide();
+    $(".home").hide();
+    $("#indexbox").hide();
     $(`${unhide}`).fadeIn("slow");
 }
+
+$(".indexbutton").on("click", function(){
+    hide_all('#indexbox');
+}); 
+
+$(".indexclose").on("click", function(){
+    hide_all('.home');
+}); 
+
+$(".index").on("click", function(){
+    hide_all('.home');
+}); 
 
 /*
 $("#menu_api").on("click", function(){

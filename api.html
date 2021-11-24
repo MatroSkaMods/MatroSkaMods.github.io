@@ -14,125 +14,131 @@
         </div>
         <center>
             
-            <div class="screen_api">
-                <div class="menu_header green static">
-                    <a href="./index.html">
-                        <div class="back">
-                            [BACK]
-                        </div>
-                    </a>
-                    The Sims 4 API
-                </div>
-                <div class="block">
-                    <div class="block_content">
-                        <br>
-                            Welcome to the Sims 4's API Documentation.<br/>
-                            This is a work in progress...<br><br>
-                        
-                        <label class="title" id="recent_changes">Recent Changes</label>
-                        <ul>
-                            <li>Added this page</li>
-                        </ul>
-                        <hr>
-                        <label class="title" id="manual">How to compile ts4script files Manually</label>
-                        <br>
-                        ts4script files are nothing more than simple archives containing compiled python 3.7 files.
-                        <br><br>
-                        <label class="subtitle">How to compile python 3.7 files</label>
-                        <pre><code class="language-batch">python.exe -m py_compile path_to_your_python_file.py</code></pre>
-                        <br>
-                        <label class="subtitle">Packaging your ts4script file</label>
-                        <ol>
-                            <li>Compile your python file (or don't, sims recognizes python files if they're packaged).</li>
-                            <li>Use archive software to create a zip file containing your python file.</li>
-                            <li>Rename your archive to yourmodname.ts4script</li>
-                            <li>Move yourmodname.ts4script to you Sims 4 mods folder.</li>
-                        </ol>
-                        <br>
-                        <hr>
-                        <label class="title" id="automatic">How to compile ts4script files Automatically</label>
-                        <br>
-                        This guide assumes that you're using Matroska's Mod Compiler.
-                        <br><br>
-                        <label class="subtitle">Installing MMC</label>
-                        <ol>
-                            <li>Make sure python 3.7 is installed and set as default.</li>
-                            <li><pre>pip install virtualenv colorama </pre></li>
-                            <li><pre>python mmc.py (or) mmc.exe</pre></li>
+            <div class="screen_home">
+                <div class="home">
+                    <div class="menu_header green">
+                        <a href="./index.html">
+                            <div class="back">
+                                [BACK]
+                            </div>
+                        </a>
+                            <div class="indexbutton">
+                                [INDEX]
+                            </div>
+                        TS4 API
+                    </div>
+                    <div class="block">
+                        <div class="block_content">
+                            <br>
+                                Welcome to the Sims 4's API Documentation.<br/>
+                                This is a work in progress...<br><br>
+                            
+                            <label class="title" id="recent_changes">Recent Changes</label>
+                            <ul>
+                                <li>Added this page</li>
+                            </ul>
+                            <hr>
+                            <label class="title" id="manual">How to compile ts4script files Manually</label>
+                            <br>
+                            ts4script files are nothing more than simple archives containing compiled python 3.7 files.
+                            <br><br>
+                            <label class="subtitle">How to compile python 3.7 files</label>
+                            <pre><code class="language-batch">python.exe -m py_compile path_to_your_python_file.py</code></pre>
+                            <br>
+                            <label class="subtitle">Packaging your ts4script file</label>
+                            <ol>
+                                <li>Compile your python file (or don't, sims recognizes python files if they're packaged).</li>
+                                <li>Use archive software to create a zip file containing your python file.</li>
+                                <li>Rename your archive to yourmodname.ts4script</li>
+                                <li>Move yourmodname.ts4script to you Sims 4 mods folder.</li>
+                            </ol>
+                            <br>
+                            <hr>
+                            <label class="title" id="automatic">How to compile ts4script files Automatically</label>
+                            <br>
+                            This guide assumes that you're using Matroska's Mod Compiler.
+                            <br><br>
+                            <label class="subtitle">Installing MMC</label>
+                            <ol>
+                                <li>Make sure python 3.7 is installed and set as default.</li>
+                                <li><pre>pip install virtualenv colorama </pre></li>
+                                <li><pre>python mmc.py (or) mmc.exe</pre></li>
 
-                        </ol>
-                        <br>
-                        <label class="subtitle">Creating and Compiling a Mod</label>
-                        <ol>
-                            <li>Create a new mod using the C command.</li>
-                            <li>Give your mod a name, then press enter.</li>
-                            <li>Enter your Mod's number, then press enter.</li>
-                        </ol>
-                        <br>
-                        <label class="subtitle">Installing other Modules</label><br>
-                        MMC has the ability to "patch" python modules to make them compatibile with Sims 4<br>
-                        [This is done automatically when compiling the mod]
-                        <ol>
-                            <li>Initiate Virtualenv with the M command.</li>
-                            <li>Enter your mod's number.</li>
-                            <li>pip install any modules.</li>
-                            <li>Use the exit command to return to the main menu.</li>
-                        </ol>
-                        <br>
-                        <label class="subtitle">Installing other Modules</label><br>
-                        MMC has the ability to "patch" python modules to make them compatibile with Sims 4.
-                        <ol>
-                            <li>Initiate Virtualenv with the M command.</li>
-                            <li>Enter your mod's number.</li>
-                            <li>pip install any modules.</li>
-                            <li>Use the exit command to return to the main menu.</li>
-                        </ol>
-                        <br>
-                        <label class="subtitle">Compiling your mod</label><br>
-                        <ol>
-                            <li>Use the C command to compile your mod.</li>
-                            <li>Run The Sims 4 to test it. No need to move any files around.</li>
-                        </ol>
-                        <br>
-                        <label class="subtitle">Debug Mode</label><br>
-                        Debug can be used if you want to add your source code files to the mod.<br>
-                        This is mainly for testing reasons.<br><br>
-                        You can enable debug mode with the D command.
-                        <br><br>
-                        <hr>
-                        <label class="title" id="hello_world">Hello World</label>
-<pre><code class="language-python">from sims4.commands import Command, CommandType, CheatOutput
-    
-@Command('hello', command_type=CommandType.Live)
-def sayhello(_connection=None):
-    output = CheatOutput(_connection)
-    output('Hello, world!')
-</code></pre>
+                            </ol>
+                            <br>
+                            <label class="subtitle">Creating and Compiling a Mod</label>
+                            <ol>
+                                <li>Create a new mod using the C command.</li>
+                                <li>Give your mod a name, then press enter.</li>
+                                <li>Enter your Mod's number, then press enter.</li>
+                            </ol>
+                            <br>
+                            <label class="subtitle">Installing other Modules</label><br>
+                            MMC has the ability to "patch" python modules to make them compatibile with Sims 4<br>
+                            [This is done automatically when compiling the mod]
+                            <ol>
+                                <li>Initiate Virtualenv with the M command.</li>
+                                <li>Enter your mod's number.</li>
+                                <li>pip install any modules.</li>
+                                <li>Use the exit command to return to the main menu.</li>
+                            </ol>
+                            <br>
+                            <label class="subtitle">Installing other Modules</label><br>
+                            MMC has the ability to "patch" python modules to make them compatibile with Sims 4.
+                            <ol>
+                                <li>Initiate Virtualenv with the M command.</li>
+                                <li>Enter your mod's number.</li>
+                                <li>pip install any modules.</li>
+                                <li>Use the exit command to return to the main menu.</li>
+                            </ol>
+                            <br>
+                            <label class="subtitle">Compiling your mod</label><br>
+                            <ol>
+                                <li>Use the C command to compile your mod.</li>
+                                <li>Run The Sims 4 to test it. No need to move any files around.</li>
+                            </ol>
+                            <br>
+                            <label class="subtitle">Debug Mode</label><br>
+                            Debug can be used if you want to add your source code files to the mod.<br>
+                            This is mainly for testing reasons.<br><br>
+                            You can enable debug mode with the D command.
+                            <br><br>
+                            <hr>
+                            <label class="title" id="hello_world">Hello World</label>
+    <pre><code class="language-python">from sims4.commands import Command, CommandType, CheatOutput
+        
+    @Command('hello', command_type=CommandType.Live)
+    def sayhello(_connection=None):
+        output = CheatOutput(_connection)
+        output('Hello, world!')
+    </code></pre>
+                        </div>
                     </div>
                 </div>
+                <center>
+                    <div id="indexbox">
+                        <h4>INDEX | <label class="indexclose">[CLOSE INDEX]</label></h4>
+                        <hr>
+
+                        <a href="#recent_changes"><label class="index">
+                            Recent Changes
+                        </label></a>
+                        
+                        <a href="#manual"><label class="index">
+                            How to compile ts4script files Manually
+                        </label></a>
+                        
+                        <a href="#automatic"><label class="index">
+                            How to compile ts4script files Automatically
+                        </label></a> 
+
+                        <a href="#hello_world"><label class="index">
+                            Hello World
+                        </label></a>
+                        <hr>
+                    </div>
+                </center>
             </div>
-            <div class="donate">
-                <h4>INDEX</h4>
-                <hr>
-
-                <a href="#recent_changes"><label class="index">
-                    Recent Changes
-                </label></a>
-
-                <a href="#manual"><label class="index">
-                    How to compile ts4script files Manually
-                </label></a>
-                
-                <a href="#automatic"><label class="index">
-                    How to compile ts4script files Automatically
-                </label></a>
-                
-                <a href="#hello_world"><label class="index">
-                    Hello World
-                </label></a>
-                <hr>
-            </div>
-
         </center>
     </div>
 
