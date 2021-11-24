@@ -170,7 +170,7 @@ a {
 }
 
 .block {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 250px);
     background-color: #202020;
     border-radius: 10px;
     padding-bottom: 5px;
